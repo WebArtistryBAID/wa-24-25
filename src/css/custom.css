@@ -1,0 +1,40 @@
+/*
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3d38ff;
+  --ifm-color-primary-dark: #3934ee;
+  --ifm-color-primary-darker: #332fd7;
+  --ifm-color-primary-darkest: #2d29bb;
+  --ifm-color-primary-light: #4743dd;
+  --ifm-color-primary-lighter: #4e4aff;
+  --ifm-color-primary-lightest: #534eff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #006dff;
+  --ifm-color-primary-dark: #0066ef;
+  --ifm-color-primary-darker: #005fdf;
+  --ifm-color-primary-darkest: #0059d1;
+  --ifm-color-primary-light: #1076ff;
+  --ifm-color-primary-lighter: #197bff;
+  --ifm-color-primary-lightest: #2281ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+  font-family: Outfit, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Outfit, sans-serif;
+}
